@@ -20,8 +20,6 @@ function Contact() {
       <p className="contact-text">
         You can also find me on social media:
         <a href="https://github.com/Michael-E238" className="contact-link">GitHub</a>
-        <a href="https://www.linkedin.com/in/michael-e238" className="contact-link">LinkedIn</a>
-        <a href="https://twitter.com/michael_e238" className="contact-link">Twitter</a>
       </p>
     </section>
   );
