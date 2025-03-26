@@ -1,0 +1,231 @@
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .nav-item {
+    margin-right: 20px;
+  }
+  
+  .nav-link {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .nav-link:hover {
+    color: #ccc;
+  }
+
+.about-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-me img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .about-me h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .about-me p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  @media (max-width: 768px) {
+    .about {
+       padding: 10px;
+     }
+    .about-image {
+       width: 100px;
+       height: 100px;
+     }
+    .about-text {
+       font-size: 16px;
+     }
+   }
+
+   .portfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .portfolio-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .portfolio-text {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .portfolio-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .github-link {
+    text-decoration: none;
+    color: #337ab7;
+  }
+  
+  .github-link:hover {
+    color: #23527c;
+  }
+  
+  .portfolio-projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .project-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .project-text {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .project-link {
+    text-decoration: none;
+    color: #337ab7;
+  }
+  
+  .project-link:hover {
+    color: #23527c;
+  }
+
+  .contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .contact-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .contact-text {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .contact-label {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .contact-input {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .contact-textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .contact-button {
+    width: 100%;
+    height: 40px;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .contact-button:hover {
+    background-color: #3e8e41;
+  }
+  
+  .contact-link {
+    text-decoration: none;
+    color: #337ab7;
+  }
+  
+  .contact-link:hover {
+    color: #23527c;
+  }
+
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer-text {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-link {
+    text-decoration: none;
+    color: #337ab7;
+  }
+  
+  .footer-link:hover {
+    color: #23527c;
+  }
+
+  .app {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .app > * {
+    margin-bottom: 20px;
+  }
